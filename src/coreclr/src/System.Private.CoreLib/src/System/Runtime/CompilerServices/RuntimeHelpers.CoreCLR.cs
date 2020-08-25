@@ -44,7 +44,7 @@ namespace System.Runtime.CompilerServices
 
         public static void RunClassConstructor(RuntimeTypeHandle type)
         {
-            _RunClassConstructor(type.GetRuntimeType());
+            _RunClassConstructor(type.GetRuntimeType())
         }
 
         // RunModuleConstructor causes the module constructor for the given type to be triggered
